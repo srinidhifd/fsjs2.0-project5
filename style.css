@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f3f3;
+    background-color: #F0F4F5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+/* =================== */
+/* Navigation Bar  */
+/* ===================== */
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar .logo{
+margin: 20px 80px;
+}
+.navbar .nav-list{
+display: flex;
+justify-content: center;
+align-items: center;
+list-style-type: none;
+margin-left: 400px;
+}
+.navbar .nav-list li{
+margin-left: 70px;
+font-size: 1.2em;
+font-weight: 700;
+}
+.navbar .nav-list li:first-child{
+    color: #41D399;
+}
+
+/* ====================== */
+/*      Main Section      */
+/* ====================== */
+.main-section{
+display: grid;
+grid-template-columns: 7fr 5fr;
+}
+.main-section .left-section {
+display: flex;
+flex-direction: column;
+align-items:center;
+padding-top: 30px;
+}
+.main-section .left-section>img{
+position: relative;
+top: 20px;
+right: 350px;
+}
+.main-section .left-section .main-heading{
+    font-size: 4.5em;
+    width: 47%;
+    word-spacing: 10px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 3.5%;
+}
+.main-section .left-section .main-description{
+    color: #7D7C7D;
+    width: 43%;
+    margin: 20px 55px 5px 0px;
+    font-size: 1.2em;
+    z-index: 1;
+    position: absolute;
+    top: 500px;
+}
+.main-section .left-section .main-button{
+    background-color: #41D399;
+    padding: 10px 20px ;
+    border-radius: 55px;
+    border: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2em;
+    position: absolute;
+    z-index: 1;
+    top: 640px;
+    margin: 0px 395px 0px 0px;
+}
+.main-section .left-section .main-button+img{
+    position: absolute;
+    left: 690px;
+    top: 635px;
+}
+.main-section .stethoscope{
+    z-index: -11;
+    position:relative;
+    margin-top: -100px;
+    width: 650px;
+    left: 170px;
+    top:-100px;
+
+} 
+.main-section .mouse{
+    position: absolute;
+    z-index: 1; 
+    margin-top: -80px;
+    left: 320px;
+
+}
+
+/* ======================= */
+/* Right-Section */
+/* ======================= */
+
+.main-section .right-section>img{
+    position: relative;
+    z-index: -5;
+    width: 450px;   
+    top: 140px; 
+    left: 170px;
+}
+.main-section .right-section .orange-box{
+    position: relative;
+    z-index: -2;
+    width: 350px;
+    top: -270px;
+    left: 280px;
+
+}
+.main-section .right-section .doctor{
+    position: absolute;
+    z-index: 100;
+    width: 400px;
+    height: 675px;
+    top: 80px;
+    left: 1085px;
+}
