@@ -71,17 +71,17 @@ right: 350px;
     top: 500px;
 }
 .main-section .left-section .main-button{
-    background-color: #41D399;
-    padding: 10px 20px ;
+    background-color: #20BC7E;
+    padding: 15px 35px ;
     border-radius: 55px;
     border: none;
     color: #ffffff;
     font-weight: 700;
-    font-size: 2em;
+    font-size: 1.5em;
     position: absolute;
     z-index: 1;
     top: 640px;
-    margin: 0px 395px 0px 0px;
+    margin: 0px 445px 0px 0px;
 }
 .main-section .left-section .main-button+img{
     position: absolute;
