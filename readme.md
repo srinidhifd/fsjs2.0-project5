@@ -10,7 +10,7 @@ _Live Website_ : [Link](https://medifine.netlify.app/)
 
 ### This webpage is  not Completely Responsive as of now .
 ## **Expected Output:**
-![SEO Master](./output.png)
+![Medifine](./output.png)
 
 ## **Achieved Output:**
-![SEO Master](./Medifine.png)
+![Medifine](./Medifine.png)
